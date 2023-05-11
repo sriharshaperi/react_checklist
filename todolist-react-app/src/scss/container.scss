@@ -1,0 +1,8 @@
+@import "./mixins";
+@import "./variables";
+
+//container styling
+.container {
+  @include flexJustifyContent(space-evenly);
+  background: linear-gradient(to bottom, $bodybackground, $white);
+}
